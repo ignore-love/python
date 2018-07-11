@@ -1,0 +1,181 @@
+--1查询出客户的地域分布排名（客户）
+select 地址 from 客户 group by 地址 order by count(*) desc;
+--2查询出供货最多的供应商的所有产品（产品资料）
+
+select * from 产品资料 where 供应商编号
+in (select tap.供应商编号 from (select 供应商编号 from 产品资料 group by 供应商编号 order by count(*) desc limit 1)
+tap );
+
+--3查询出购买次数最多的客户的订单信息的总运费（订货主档）
+--先查询购买次数最多的客户编号
+select 客户编号 from 订货主档 group by 客户编号 order by count(客户编号) desc limit 1;
+--再根据客户编号查询总运费
+select sum(运费) from 订货主档 where 客户编号 in (select 客户编号 from 订货主档 group by 客户编号 order by count(客户编号) desc limit 1);
+
+--4查询出客户最喜欢货运公司的详细信息（订货主档，货运公司）
+--先根据客户使用最多的货运公司次数查询货运公司编号
+select 货运方式 from 订货主档 group by 货运方式 order by count（货运方式）desc limit 1;
+--再根据货运公司编号查询货运公司信息
+select * from 货运公司 where 货运方式 in (select 货运方式 from 订货主档 group by 货运方式 order by count（货运方式）desc limit 1 );
+--5查询出每个地区的用户消费金额降序排名（客户，订货主档，订货明细）
+查询出每个地区
+select  from 客户 a join 订货主档 b on a.客户编号=b.客户编号 join 订货明细 c on b.订单号码=c.订单号码 group by 送货行政区 order by  单价
+--6查询出销售金额最低的三个员工的信息（员工，订货主档，订货明细）
+select * from 员工 a join 订货明细 b on a.员工编号=b.员工编号 join 订货明细 c on b.订单号码=c.订单号码 group by 员工编号 order by sum(数量*单价*(1-折扣))asc limit 3;
+--7查询1996年7月份客户采购的详细信息（客户、订货主档、订货明细）
+select * from 客户 a join 订货主档 b on a.客户编号=b.客户编号 join 订货明细 c on b.订单号码 = c.订单号码 where 
+--8查询采购金额最多的前三位公司详细信息（客户、订货主档、订货明细）
+select * from 客户 a join 订货主档 b on a.客户编号=b.客户编号 join 订货明细 c on b.
+订单号码 = c.订单号码 group by 客户编号 order by sum(数量*单价*(1-折扣) desc limit 3;
+--9根据客户的采购数量多少从高到低排序对客户排序（客户、订货主档、订货明细）
+select * from 客户 a join 订货主档 b on a.客户编号=b.客户编号 join 订货明细 c on b.
+订单号码 = c.订单号码 group by 客户编号 order by sum(数量) desc; 			  
+--10统计各种产品类别的数量，按照产品类别数量从低到高显示（产品类别，产品资料）
+select a.类别名称 from 产品类别 a join 产品资料 b on a.类别编号 = b.类别编号 group by a.类别名称 order by count(*) asc ; 
+--11查询销售数量最多的产品信息(产品资料,订货明细)
+select a.产品, b from 产品资料 as a join 订货明细 as b on a.产品编号=b.产品编号 group by a.产品 order by sum(b.数量) limit 1;
+--12将所有工龄大于20年的员工工资上调10% （员工表）
+;
+
+update 员工 set 目前薪资 = (目前薪资*1.1)  where 员工编号 = (select 员工编号 from 员工  where year(now()) - year(雇佣日期) > 20);
+
+--13查询销售金额最多的产品信息(产品资料,订货明细)
+
+	;
+	select * from 产品资料 where 产品编号 = (select 产品编号 from 订单明细 d group by 产品编号 order by sum(d.单价*d.数量*(1-d.折扣)) desc limit 1);
+	
+		
+		
+一、git的介绍及使用
+	-》git的核心作用：版本控制
+		-》特点：
+			-》分布式
+			-》大部分的操作都是可以离线完成
+			-》开源：open source
+	-》git的安装配置
+		-》下载安装：https://git-scm.com/
+		-》测试：在window cmd中运行
+			git --version
+		-》配置git：全局变量、用户名、邮箱
+			-》建立一个空白的文件夹，作为git的版本库
+				-》路径中不要包含中文
+			-》配置简单信息
+				-》查看全局配置信息
+					git config --help：查看用户手册
+					git init  ：当前目录进行初始化
+					git config --global --list
+				-》设置用户名及邮箱
+					git config --global user.name "john"
+					git config --global user.email "test12345@qq.com"
+				-》添加变量及值
+					git config --global --add user.name "frank"
+					git config --global --add user.email "test12345@qq.com"
+				-》删除某个变量
+					git config --global --unset user.name "john"
+					git config --global --unset user.mail "test12345@qq.com"
+				-》设置别名
+					git config --global alias.st=status
+		-》git实现版本控制
+			-》创建一个空的目录，路径不要包含中文
+			-》初始化git空间
+				git init
+			-》查看空间状态
+				git status
+			-》管理版本
+				-》修改项目文件
+					产生新的版本
+				-》将修改后的版本添加到缓存：临时存储版本
+					"git add <file>..." ：file指的是文件路径
+					git add test01.txt
+					
+				-》提交给git本地库：管理每个文件所有的版本的（回退，前进）
+					-》如果需要删除缓存
+						 "git rm --cached <file>..."
+					-》提交本地库
+						git commit -m "this is the first version"
+						git commit -m "this is the second version"
+				-》查看当前所有的版本信息
+					git log
+					git log --pretty=oneline
+				-》回退到某个版本
+					git reset --hard HEAD^
+					^：^的个数代表版本的个数
+					回到第一个版本：git reset --hard HEAD^^
+				-》前进：查看所有的版本
+					get reflog：显示从版本操作记录
+					前进：git reset --hard 8e7e7ce
+					
+					
+二、github
+	https://github.com/
+	-》注册github
+		https://jingyan.baidu.com/article/455a9950abe0ada167277864.html
+	-》将github中的项目关联本地的项目
+		-》关联
+			-》创建空目录
+			-》初始化
+			-》关联
+			git remote add origin https://github.com/sn765320/myGitDamon1.git
+		-》修改并提交
+			-》修改
+			—》提交缓存
+			-》提交本地
+			-》提交github
+				第一次：git push -u origin master
+				以后：git push origin master
+				如果第一次提交报错：git pull origin master --allow-unrelated-histories
+		-》参与公共的项目
+		-》将github中的项目克隆到本地
+			git clone https://github.com/sn765320/myGitDamon1.git
+			
+			
+三、maven的安装及使用
+	-》功能：统一管理项目中所有的依赖
+	-》流程：
+		-》本地仓库
+		-》远程仓库
+	-》下载安装maven
+		-》解压，路径不要包含中文
+		-》配置环境变量
+			JAVA_HOME=C:\Program Files\Java\jdk1.7.0_79
+			M2_HOME=D:\apache-maven-3.3.9
+			path=;D:\apache-maven-3.3.9\bin;
+		-》打开cmd
+			mvn -version
+	-》修改maven的配置
+		D:\apache-maven-3.3.9\conf\settings.xml
+		配置本地库的地址：<localRepository>D:\repository</localRepository>
+		配置远程仓库的地址：阿里的maven源
+		<mirror>
+		  <id>alimaven</id>
+		  <name>aliyun maven</name>
+		  <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		  <mirrorOf>central</mirrorOf>        
+		</mirror>
+		
+		-》为了避免配置失败，最好将这个文件放入C:\Users\江城子\.m2
+		
+	-》集成到eclipse中
+	-》创建maven项目
+		-》group id：主项目的名称
+		-》aritfact id：子项目的名称
+	-》在maven工程中添加依赖
+		-》修改pom.xml
+		
+	-》maven命令
+		-》mvn test ：测试运行
+		-》mvn complie ：编译
+		-》mvn test-complie：测试编译
+		-》mvn package：打包
+		—》mvn clean : 清空target目录
+		-》mvn install : 安装
+
+
+
+
+
+
+
+
+
+

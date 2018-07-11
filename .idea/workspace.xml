@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e176b71-ae33-420d-aabd-ddaf9814bc10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/wordcount/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/House/house/anjuke_house_url.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/House/house/anjuke_pingjia.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/lianjia_view/2nd_house_price.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/lianjia_view/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/lianjia_view/lianjia_type_view.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_view/wordcount/fang_address_img.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.csv" afterPath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py" afterPath="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +22,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/protect_python$gjDemo.coverage" NAME="gjDemo Coverage Results" MODIFIED="1528865917126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/gj" />
+    <SUITE FILE_PATH="coverage/protect_python$anjuke_pingjia.coverage" NAME="anjuke_pingjia Coverage Results" MODIFIED="1531198394872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/House/house" />
     <SUITE FILE_PATH="coverage/protect_python$Iris_s_s.coverage" NAME="Iris_s_s Coverage Results" MODIFIED="1531105620261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_view/Itis_s" />
     <SUITE FILE_PATH="coverage/protect_python$dicthomework.coverage" NAME="dicthomework Coverage Results" MODIFIED="1525775422585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/protect_python$MaxFun.coverage" NAME="MaxFun Coverage Results" MODIFIED="1525777161707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
@@ -37,6 +44,7 @@
     <SUITE FILE_PATH="coverage/protect_python$jieshuo.coverage" NAME="jieshuo Coverage Results" MODIFIED="1530261819919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyImg" />
     <SUITE FILE_PATH="coverage/protect_python$python2all.coverage" NAME="python2all Coverage Results" MODIFIED="1529568740869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_python3/x0620" />
     <SUITE FILE_PATH="coverage/protect_python$url_tel_title.coverage" NAME="url_tel_title Coverage Results" MODIFIED="1528861178168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/gj" />
+    <SUITE FILE_PATH="coverage/protect_python$lianjia_type_view.coverage" NAME="lianjia_type_view Coverage Results" MODIFIED="1531214449500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_view/lianjia_view" />
     <SUITE FILE_PATH="coverage/protect_python$pyImg1.coverage" NAME="pyImg1 Coverage Results" MODIFIED="1525767635646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyImg" />
     <SUITE FILE_PATH="coverage/protect_python$anjuke_house_info.coverage" NAME="anjuke_house_info Coverage Results" MODIFIED="1530585603623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/House/house" />
     <SUITE FILE_PATH="coverage/protect_python$fulitu.coverage" NAME="fulitu Coverage Results" MODIFIED="1526550261615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyImg" />
@@ -56,7 +64,8 @@
     <SUITE FILE_PATH="coverage/protect_python$sanjiaoxing.coverage" NAME="sanjiaoxing Coverage Results" MODIFIED="1525776489556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/protect_python$renrenzhuanxui_phone.coverage" NAME="renrenzhuanxui_phone Coverage Results" MODIFIED="1530086516251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work" />
     <SUITE FILE_PATH="coverage/protect_python$count_ip.coverage" NAME="count_ip Coverage Results" MODIFIED="1529911821339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/ip" />
-    <SUITE FILE_PATH="coverage/protect_python$Fang_house_info_type_url.coverage" NAME="Fang_house_info_type_url Coverage Results" MODIFIED="1531128680034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_view/wordcount" />
+    <SUITE FILE_PATH="coverage/protect_python$address_img.coverage" NAME="address_img Coverage Results" MODIFIED="1531192153256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_view/wordcount" />
+    <SUITE FILE_PATH="coverage/protect_python$Fang_house_info_type_url.coverage" NAME="Fang_house_info_type_url Coverage Results" MODIFIED="1531192279485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_view/wordcount" />
     <SUITE FILE_PATH="coverage/protect_python$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1528858618136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/protect_python$desktopography_net.coverage" NAME="desktopography_net Coverage Results" MODIFIED="1530177534285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyImg" />
     <SUITE FILE_PATH="coverage/protect_python$pa_zhuangxiu.coverage" NAME="pa_zhuangxiu Coverage Results" MODIFIED="1528947067677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/baidu" />
@@ -68,11 +77,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fang_house_info_type_url.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py">
+      <file leaf-file-name="anjuke_pingjia.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/House/house/anjuke_pingjia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="1323">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fang_address_img.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_view/wordcount/fang_address_img.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="25" column="86" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="86" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lianjia_type_view.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_view/lianjia_view/lianjia_type_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2nd_house_price.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_view/lianjia_view/2nd_house_price.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -104,10 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day01/demo01.py" />
-        <option value="$PROJECT_DIR$/day01/test.py" />
-        <option value="$PROJECT_DIR$/day01/pyImg/pyImg.py" />
-        <option value="$PROJECT_DIR$/pyImg/pyImg.py" />
         <option value="$PROJECT_DIR$/day01/demo2.py" />
         <option value="$PROJECT_DIR$/pyImg/1.py" />
         <option value="$PROJECT_DIR$/pyImg/pyImg1.py" />
@@ -154,21 +195,32 @@
         <option value="$PROJECT_DIR$/work/meituan/jiazhuang_url_phone.py" />
         <option value="$PROJECT_DIR$/py_view/Itis_s/Iris_s_s.py" />
         <option value="$PROJECT_DIR$/py_view/pa_book/doupan_com.py" />
+        <option value="$PROJECT_DIR$/py_view/wordcount/address_img.py" />
         <option value="$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py" />
+        <option value="$PROJECT_DIR$/House/house/anjuke_pingjia.py" />
+        <option value="$PROJECT_DIR$/py_view/lianjia_view/2nd_house_price.csv" />
+        <option value="$PROJECT_DIR$/py_view/lianjia_view/lianjia_type_view.py" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="475" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="675" />
+    <option name="y" value="70" />
     <option name="width" value="1101" />
-    <option name="height" value="931" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,7 +257,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +272,24 @@
             <path>
               <item name="protect_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="protect_python" type="462c0819:PsiDirectoryNode" />
+              <item name="House" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="protect_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protect_python" type="462c0819:PsiDirectoryNode" />
+              <item name="House" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="protect_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protect_python" type="462c0819:PsiDirectoryNode" />
               <item name="py_view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="protect_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protect_python" type="462c0819:PsiDirectoryNode" />
+              <item name="py_view" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="protect_python" type="b2602c69:ProjectViewProjectNode" />
@@ -237,20 +305,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\protect_python\py_view\wordcount" />
-      <recent name="D:\protect_python\pyImg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\protect_python\work\ip" />
       <recent name="D:\protect_python" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\protect_python\py_view\lianjia_view" />
+      <recent name="D:\protect_python\House\house" />
+      <recent name="D:\protect_python\py_view\wordcount" />
+      <recent name="D:\protect_python\pyImg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fang_house_info_type_url">
+  <component name="RunManager" selected="Python.lianjia_type_view">
     <configuration name="Fang_house_info_type_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,25 +355,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Iris_s_s" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="address_img" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_view/Itis_s" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_view/wordcount" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="protect_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_view/Itis_s/Iris_s_s.py" />
+      <option name="SCRIPT_NAME" value="D:\protect_python\py_view\wordcount\fang_address_img.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="anjuke_house_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="anjuke_pingjia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -315,7 +386,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="protect_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/House/house/anjuke_house_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/House/house/anjuke_pingjia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,6 +409,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="lianjia_type_view" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_view/lianjia_view" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="protect_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_view/lianjia_view/lianjia_type_view.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,39 +445,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="wdlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/wdzx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="protect_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/wdzx/wdlist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wdlist" />
-      <item index="2" class="java.lang.String" itemvalue="Python.anjuke_house_info" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Iris_s_s" />
-      <item index="4" class="java.lang.String" itemvalue="Python.doupan_com" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Fang_house_info_type_url" />
+      <item index="1" class="java.lang.String" itemvalue="Python.doupan_com" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Fang_house_info_type_url" />
+      <item index="3" class="java.lang.String" itemvalue="Python.address_img" />
+      <item index="4" class="java.lang.String" itemvalue="Python.anjuke_pingjia" />
+      <item index="5" class="java.lang.String" itemvalue="Python.lianjia_type_view" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Fang_house_info_type_url" />
-        <item index="1" class="java.lang.String" itemvalue="Python.doupan_com" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Iris_s_s" />
-        <item index="3" class="java.lang.String" itemvalue="Python.anjuke_house_info" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wdlist" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lianjia_type_view" />
+        <item index="1" class="java.lang.String" itemvalue="Python.anjuke_pingjia" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Fang_house_info_type_url" />
+        <item index="3" class="java.lang.String" itemvalue="Python.address_img" />
+        <item index="4" class="java.lang.String" itemvalue="Python.doupan_com" />
       </list>
     </recent_temporary>
   </component>
@@ -418,20 +489,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.489154" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.489154" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34273317" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45813954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45770064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -502,62 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/install/Anaconda3-4.4.0/Lib/site-packages/pandas/core/internals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="4293" column="0" lean-forward="false" selection-start-line="4293" selection-start-column="0" selection-end-line="4293" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_python3/x0619/NavigatingTrees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_python3/x0619/pythonscraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_python3/x0619/scrapettest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_python3/x0619/weijibaike/wiki_all_pagelink.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House/house/房天下_字典格式.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_python3/x0620/python2all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House/house/temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/ip/count_ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -747,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib3/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/wdzx/wdlist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -779,13 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House/house/anjuke_house_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3618">
-          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -852,11 +853,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_view/wordcount/字典.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House/house/anjuke_house_url.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House/house/安居客字典.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_view/wordcount/Fang_house_info_type_url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib3/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House/house/anjuke_house_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="160" column="22" lean-forward="true" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House/house/anjuke_pingjia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_view/wordcount/fang_address_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="25" column="86" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="86" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_view/lianjia_view/2nd_house_price.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_view/lianjia_view/lianjia_type_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
