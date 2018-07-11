@@ -56,7 +56,7 @@ def getHtmlByUrl(url):
 
         q.append(n)  # 出错放回到队列尾部
         getHtmlByUrl(url)
-    time.sleep(5)  # 还是设置一个等待吧，太快的访问容易被屏蔽。可以自己改
+    time.sleep(1)  # 还是设置一个等待吧，太快的访问容易被屏蔽。可以自己改
     bsObj = BeautifulSoup(start_html.text, "html.parser")
     return bsObj
 

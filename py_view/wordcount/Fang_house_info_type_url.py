@@ -32,6 +32,7 @@ def getTextbycsv():
                 # list_temp = list()
                 # list_temp.append(str_list[0])
             type_list.append(str_list[0])
+            print(type_list)
     return type_list
 
 
@@ -61,17 +62,16 @@ if __name__ == '__main__':
     # plt.plot(a,b,'go')
     # plt.show()
 
-    # 柱形表
-    bar =Bar("房天下_户型图表", "**************")
-    # bar = Bar("我的第一个图表", "这里是副标题")
-    bar.add("楼盘户型", a, b)
-    bar.show_config()
-    bar.render()
+    # # 柱形表
+    # bar =Bar("房天下_户型图表", "单位：户")
+    # bar.add("楼盘户型", a, b)
+    # bar.show_config()
+    # bar.render()
 
     #词云
     wordcloud = WordCloud(width=1300, height=620)
-    wordcloud.add("", a, b, word_size_range=[20, 100])
-    wordcloud.show_config()
+    wordcloud.add("户型", a, b, word_size_range=[20, 100])
+    # wordcloud.show_config()
     wordcloud.render()
 
     # wordcloud = WordCloud(width=1300, height=620)
