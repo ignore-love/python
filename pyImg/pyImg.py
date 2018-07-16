@@ -96,7 +96,7 @@ def main(num):
     print(title)
     mmurl_t = get_mmurl_t(mm_url)
     # print(mmurl_t)
-    path = 'D:\PPPPython\爬虫\图片下载\\' + title
+    path = 'D:/PPP/' + title
     if os.path.isdir(path):
         pass
     else:
@@ -110,11 +110,13 @@ def main(num):
 
 if __name__ == '__main__':
     s = time.time()
-    # for i in range(1242,1256):
-    #     main(i)
-    # main(1242,1256)
-    pool = Pool()
-    pool.map(main, [i for i in range(1332, 1256)])
+    for i in range(1,1409):
+        main(i)
+    main(1,1409)
+    # pool = Pool()
+    # pool.map(main, [i for i in range(1332, 1256)])
 
     e = time.time()
     print(e - s)
+
+

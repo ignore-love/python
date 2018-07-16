@@ -101,14 +101,18 @@ if __name__ == '__main__':
     fileName = "D:/anjuke_house_pingjia.csv"
     titles = ['user','content']
 
+
     pingjia_list = getTitleforUrl()
     for item in pingjia_list:
         getInfobyHtml(item)
+
 
     print("写入cvs格式文件")
     print('评论数：',list_content.__len__())
     test = pd.DataFrame(columns=titles, data=list_content)
     test.to_csv(fileName)
+
+
     # 完成时间
     end = datetime.datetime.now()
     print(end)
