@@ -95,8 +95,8 @@ def main(num):
     title = get_mmurl_title(mm_url)
     print(title)
     mmurl_t = get_mmurl_t(mm_url)
-    # print(mmurl_t)
-    path = 'D:/PPP/' + title
+    # print(mmurl_t)  L:\mmjpg
+    path = 'L:/mmjpg/' + title
     if os.path.isdir(path):
         pass
     else:
@@ -110,9 +110,11 @@ def main(num):
 
 if __name__ == '__main__':
     s = time.time()
-    for i in range(1,1409):
+    # http: // www.mmjpg.com / mm / 1158
+    # http: // www.mmjpg.com / mm / 1350
+    for i in range(1158,1350):
         main(i)
-    main(1,1409)
+    # main(1409,1412)
     # pool = Pool()
     # pool.map(main, [i for i in range(1332, 1256)])
 
